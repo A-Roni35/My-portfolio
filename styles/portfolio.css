@@ -1,6 +1,6 @@
 /* common shared styles */
 body {
-    font-family: 'Lato',sans-serif;
+  
     font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
@@ -21,10 +21,15 @@ body {
     font-size: 35px;
     font-weight: 700;
 }
-.section-pescriptions{
-    color: #757575);
+.section-pescription{
+    color: var(--Dark-03, #757575);
     text-align: center;
+    font-family: "Open Sans";
     font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    
 
 }
 /* nav related styles */
@@ -113,5 +118,10 @@ main{
     justify-content: space-around;
 }
 .about-info{
+    text-align: center;
+
+}
+#what-i-do-description{
+    padding: 30px 150px;
     text-align: center;
 }
